@@ -3,7 +3,7 @@
 A multi-section landing page built as a follow-up to my first Odin Project landing page, with a different design and more layout practice.
 
 ## Live preview
-
+https://scropico2.github.io/Second-page/
 
 ## What's on the page
 
