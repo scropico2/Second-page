@@ -1,0 +1,255 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--bg);
+}
+
+:root {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --text: #f1f5f9;
+    --muted: #94a3b8;
+    --accent: #38bdf8;
+}
+
+
+.navbar {
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 64px;
+}
+
+.logo {
+    box-sizing: border-box;
+    width: 200;
+    padding: 40px;
+    border: 5px solid wheat;
+    font-size: 30px;
+    font-weight: 500px;
+}
+
+.opening-list ul {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 500px;
+
+}
+
+.button-nav {
+    display: flex;
+    margin-left: auto;
+    background-color: var(--accent);
+    border-radius: 8px;
+    font-size: medium;
+    color: var(--text);
+    border: var(--accent);
+}
+
+.button {
+    text-decoration: none;
+    color: var(--text)
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 64px;
+}
+
+.image-holder {
+    margin-right: 64px;
+    margin-left: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 380px;
+    border: solid var(--accent);
+    flex: 1;
+    color: var(--text);
+}
+
+.image-holder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.introduction h3 {
+    display: flex;
+
+    color: var(--surface);
+    background-color: var(--accent);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    padding-left: 40px;
+
+}
+
+.introduction p {
+    color: var(--text);
+    font-size: 18px;
+}
+
+.introduction button {
+    display: flex;
+    margin-left: auto;
+
+    background-color: var(--accent);
+    border-radius: 8px;
+    font-size: 30px;
+    color: var(--text);
+    border: var(--accent);
+
+}
+
+.cards-information {
+    display: flex;
+    justify-content: center;
+    color: var(--surface);
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500px;
+    background-color: var(--accent);
+}
+
+.cards {
+    margin-left: 64px;
+    margin-right: 64px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 24px;
+
+
+}
+
+.card-text {
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.card-text:hover {
+    color: #38bdf8;
+}
+
+.card {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: solid var(--muted)
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.qoute {
+    color: var(--text);
+    margin-top: 24px;
+    background-color: var(--muted);
+    max-width: 800px;
+}
+
+.qoute-author {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.qoute-author p {
+    margin: 0;
+}
+
+.qoute-author img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.important-content {
+    display: flex;
+    color: var(--text);
+    background-color: var(--muted);
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+    margin: 64px auto;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+.cta-text {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-info {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sign-text {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.actions button {
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: var(--muted);
+    color: var(--text);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent);
+    color: var(--surface);
+    padding: 12px;
+    font-size: 18px;
+    margin-left: 64px;
+    margin-right: 64px;
+
+}
